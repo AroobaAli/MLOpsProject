@@ -19,6 +19,6 @@ jobs:
           pip install -r requirements.txt
 
       - name: Train and log model
-        run: python simple_ml_model.py
+        run: python model.py
 
       # Add additional steps for testing, deploying, or further MLflow interactions
